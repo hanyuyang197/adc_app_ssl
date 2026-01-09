@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+anim fade_in
+anim fade_out
+color black
+color gray
+color light_gray
+color primary_dark_blue
+color primary_light_blue
+color white
+drawable edittext_background
+drawable ic_launcher
+id appNameTextView
+id jumpButton
+id logoImageView
+id progressBar
+id topLayout
+id urlEditText
+id webView
+layout activity_main
+layout activity_splash
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_jump
+string loading
+string url_hint
+style ActionBarStyle
+style ActionBarTitleStyle
+style PrimaryButton
+style Theme.WebViewApp
+style Theme.WebViewApp.NoActionBar

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF999999</color>
+    <color name="light_gray">#FFEEEEEE</color>
+    <color name="primary_dark_blue">#FF1A237E</color>
+    <color name="primary_light_blue">#FF2979FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">WebViewApp</string>
+    <string name="btn_jump">跳转</string>
+    <string name="loading">加载中...</string>
+    <string name="url_hint">请输入网址</string>
+    <style name="ActionBarStyle" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="background">@color/primary_dark_blue</item>
+        <item name="android:background">@color/primary_dark_blue</item>
+        <item name="titleTextStyle">@style/ActionBarTitleStyle</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyle</item>
+    </style>
+    <style name="ActionBarTitleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary_light_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="Theme.WebViewApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/primary_dark_blue</item>
+        <item name="colorPrimaryDark">@color/primary_dark_blue</item>
+        <item name="colorAccent">@color/primary_light_blue</item>
+        
+        
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+    <style name="Theme.WebViewApp.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebViewApp</string>
+    <string name="url_hint">请输入网址</string>
+    <string name="btn_jump">跳转</string>
+    <string name="loading">加载中...</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主题颜色 -->
+    <color name="primary_dark_blue">#FF1A237E</color>
+    <color name="primary_light_blue">#FF2979FF</color>
+    
+    <!-- 其他颜色 -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF999999</color>
+    <color name="light_gray">#FFEEEEEE</color>
+</resources>
